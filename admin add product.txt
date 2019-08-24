@@ -1,0 +1,99 @@
+
+       <app-task></app-task>
+
+   
+            <div class="list-group">
+                
+
+                        <ul class="admin navbar-right">
+                                <button type="button" class="btn btn-danger"><a href="#">
+                                      <span class="glyphicon glyphicon-trash"></span></a>
+                                                         </button> 
+                   
+                                          <button type="button" class="btn btn-warning"> 
+                                                 <a href="#">
+                                                       
+                   <span class="glyphicon glyphicon-save"></span></a></button>  <br><br>
+                   </ul>
+                   
+                   <h1>Product</h1>
+                
+              <legend>Product list</legend>
+              <div class="row">
+                      <div class="col-sm-4">
+              <label class="control-label col-sm-1" for="name">ProductName:</label>
+               <input type="text" class="form-control" id="name" placeholder="productname"> 
+                      </div>
+                      <div class="col-sm-4"><label class="control-label col-sm-1" for="price">Price:</label>
+                          <input type="text" class="form-control" id="price" placeholder="price"> 
+                      </div>
+                      <div class="col-sm-4">
+                              <label class="control-label col-sm-1" for="status">Status</label>
+                              <input type="text" class="form-control" id="status" placeholder="status"> 
+                      </div>
+                      <div class="col-sm-4">
+                              <label class="control-label col-sm-1" for="name">Model</label>
+                               <input type="text" class="form-control" id="name" placeholder=" model"> 
+                                      </div>
+                                      <div class="col-sm-4"><label class="control-label col-sm-1" for="price">Quantity</label>
+                                          <input type="text" class="form-control" id="price" placeholder="quantity"> 
+                                      </div>
+                                      <div class="col-sm-4">
+                                              <label class="control-label col-sm-1" for="status">Image</label>
+                                              <input type="text" class="form-control" id="status" placeholder="Image"> 
+                                      </div>
+                    </div> 
+            </div> 
+            
+    
+
+
+            
+           
+            <div class="productlist">
+                <div class="list-group">
+                    <legend>Product list</legend>
+          <div class="container">           
+                <table class="table table-hover" style="width:100%">
+                              
+                    <tr>
+                              <td> <input type="checkbox" name="vehicle1" value="Bike"></td><br>
+                                
+                      <th>Image</th>
+                      <th>ProductName</th>
+                      <th>Model</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+
+
+
+
+                <tbody>
+                  
+                    <tr>
+                     <td>  <input type="checkbox"></td><br> 
+                            <td><img src="assets/images/s12.jpg" width="40px" height="50px"> </td>
+                      <td>Necklace</td>
+                      <td></td>
+                      <td>1500</td>
+                      <td>3</td>
+                      <td>Enabled</td>
+                      
+                      <td>  <a href="#" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-edit"></span> 
+                      </a> <td> 
+
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              </div>
+              </div>
+
+
+
+
